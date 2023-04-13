@@ -19,7 +19,7 @@ jobs:
           node-version: 18
 
       - name: Install depencies
-      - run: npm ci
+      - run: npm ci --force
 
       - name: Build Storybook
       - run: npm run build-storybook
